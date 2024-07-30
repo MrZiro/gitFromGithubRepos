@@ -38,7 +38,7 @@
 }
 
 body {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     background-color: var(--four-color);
 }
 
@@ -138,7 +138,6 @@ body {
     float: right;
     margin-left: 4px;
     border-radius: 4px;
-    font-size: 10px;
     width: 90px;
     text-align: center;
     padding: 4px;
