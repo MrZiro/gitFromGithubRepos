@@ -32,7 +32,10 @@
     --third-color2: var(--third-color-white2);
     --four-color: var(--four-color-white);
 }
-
+::selection {
+    background-color: var(--main-color);
+    color: var(--third-color);
+}
 * {
     box-sizing: border-box;
 }
@@ -150,10 +153,4 @@ body {
 }
 .repos-container .show-data .rp-box a:hover {
     background-color: var(--second-color);
-}
-
-::-moz-selection,
-::selection {
-    background-color: var(--main-color);
-    color: var(--third-color);
 }
