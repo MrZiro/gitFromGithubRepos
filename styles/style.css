@@ -55,6 +55,7 @@ body {
     font-size: 16rem;
     user-select: none;
     color: var(--main-color2)
+    user-select: none;
 }
 
 #biBtn {
@@ -149,4 +150,10 @@ body {
 }
 .repos-container .show-data .rp-box a:hover {
     background-color: var(--second-color);
+}
+
+::-moz-selection,
+::selection {
+    background-color: var(--main-color);
+    color: var(--third-color);
 }
