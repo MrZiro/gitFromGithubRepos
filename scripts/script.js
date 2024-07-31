@@ -4,18 +4,12 @@ let shDt = document.getElementById("shDt");
 let bigbtn = document.getElementById("biBtn");
 let iimg = document.getElementById("myi");
 
-
 bigbtn.onclick = () => {
     let currentTheme = document.body.getAttribute("data-theme");
     let newTheme = currentTheme === "light" ? "dark" : "light";
     iimg.classList = newTheme === "light" ? "fa-solid fa-moon" : "fa-solid fa-sun";
     document.body.setAttribute("data-theme", newTheme);
 }
-
-
-
-
-
 
 thBtn.onclick = () => getRepos();
 
